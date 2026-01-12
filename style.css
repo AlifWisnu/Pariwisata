@@ -1,0 +1,218 @@
+/*Header & Footer*/
+body {
+    margin: 0;
+    background-color: cornflowerblue;
+}
+
+.populer-card body:hover {
+    background-color: aqua;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 4%;
+    background-color: rgba(0, 255, 255, 0.541);
+}
+
+.namaProjek {
+    color: rgb(255, 0, 0);
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#about {
+    text-align: center;
+}
+
+.mara {
+    color: rgb(0, 20, 172);
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*Style*/
+.background {
+    padding-bottom: 5%;
+}
+
+.lokasi-web {
+    margin: 2%;
+    font-weight: bolder;
+}
+
+.h1-kategori {
+    margin: 2%;
+}
+
+.populer-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.populer-card {
+    background-color: rgba(0, 225, 255, 0.4);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.populer-card:hover {
+    background-color: rgba(0, 255, 255, 0.6);
+    text-decoration: underline;
+}
+
+.text {
+    text-decoration: none;
+    color: black;
+    width: 48%;
+}
+
+.gambar {
+    width: auto;
+}
+
+.penjelasan {
+    width: 90%;
+}
+
+.highlight {
+    font-size: x-large;
+}
+
+.button-border {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.button {
+    border: dashed black 2px;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+}
+
+.button:hover {
+    border: solid black 2px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.lokasi-web-style {
+    color: black;
+    padding: 2%;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+.link-list {
+    color: black;
+    text-decoration: none;
+    background-color: rgba(0, 225, 255, 0.4);
+    width: 98%;
+    border-radius: 5px;
+}
+
+.link-list:hover {
+    background-color: rgba(0, 255, 255, 0.6);
+    text-decoration: underline;
+}
+
+.link-list:hover {
+    text-decoration: underline;
+}
+
+.isi-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.gambar-list {
+    width: 40%;
+}
+
+.isi {
+    width: 50%;
+}
+
+.list-lain {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.card-penjelasan {
+    background-color: rgba(0, 255, 255, 0.541);
+    padding: 2%;
+    display: flex;
+    margin: 2%;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gambar-penjelasan {
+    width: 95%;
+}
+
+.penjelasan-tambahan {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/*Footer*/
+footer {
+    color: black;
+    background-color: rgba(0, 255, 255, 0.541);
+    padding: 2% 0 0 0 ;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    width: 30%;
+}
+
+.sub-footer {
+    width: 50%;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlight-footer {
+    font-size: large;
+    font-weight: bold;
+}
+
+.hakcipta {
+    text-align: center;
+    padding: 0 0 1% 0;
+}
